@@ -5,7 +5,7 @@ from sqlalchemy.orm import sessionmaker
 import pandas as pd
 BASE_URL = "https://api.carrismetropolitana.pt/v1/stops"
 GTFS_URL = "https://api.carrismetropolitana.pt/gtfs"
-DATABESE_URL = 'postgresql://smartway_8fno_user:jXdPD7yVOPuEwaAX9374R4YvxH65OqNw@dpg-cusjab5umphs73c8cmeg-a.frankfurt-postgres.render.com/smartway'
+DATABESE_URL = URL
 
 app = FastAPI()
 
